@@ -6,7 +6,10 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="Generate your professional Bios." />
+          <meta
+            name="description"
+            content="Generate your professional Biography."
+          />
 
           {/* <!-- Google / Search Engine Tags --> */}
           <meta itemProp="name" content="Bio Generator" />
@@ -16,7 +19,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Generate your professional Bios."
+            content="Generate your professional Biography."
           />
           <meta
             itemProp="image"
@@ -28,7 +31,7 @@ class MyDocument extends Document {
             content="https://twekaone-biosgenerator.vercel.app"
           />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="BibleGPT" />
+          <meta property="og:title" content="Biography Generator" />
           <meta
             property="og:description"
             content="Generate your professional Bios."
@@ -39,10 +42,10 @@ class MyDocument extends Document {
           />
           {/* <!-- Twitter Meta Tags --> */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="BibleGPT Question and Answer" />
+          <meta name="twitter:title" content="Biography Generator." />
           <meta
             name="twitter:description"
-            content="Generate your professional Bios."
+            content="Generate your professional Biography."
           />
           <meta
             property="og:image"
