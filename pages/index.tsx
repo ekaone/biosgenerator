@@ -114,7 +114,7 @@ const Home: NextPage = () => {
               className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 w-full"
               onClick={(e) => generateBio(e)}
             >
-              Generate answer &rarr;
+              Generate Biography &rarr;
             </button>
           )}
           {loading && (
