@@ -70,15 +70,6 @@ const Home: NextPage = () => {
     setLoading(false);
   };
 
-  // util helper to convert new lines to <br /> tags
-  const convertNewLines = (text: string) =>
-    text.split("\n").map((line, i) => (
-      <span key={i}>
-        {line}
-        <br />
-      </span>
-    ));
-
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
@@ -162,7 +153,7 @@ const Home: NextPage = () => {
                         className="text-justify bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
                         onClick={() => {
                           navigator.clipboard.writeText(generatedBio);
-                          toast("Bio copied to clipboard", {
+                          toast("Biography copied to clipboard", {
                             icon: "✂️",
                           });
                         }}
