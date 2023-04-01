@@ -24,7 +24,7 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Generate 2 professional biographies, make sure each generated biography is less than 300 characters short sentences and concise with no hashtags and clearly labeled "1." and "2." and make sure this biographies target for ${vibe} page, follow the user's instructions carefully, and base them on this context: ${bio}`;
+  const prompt = `Generate 2 professional biographies, make sure each generated biography is less than 300 characters, short sentences and concise, with no hashtags and clearly labeled "1." and "2." and make sure this biographies target for ${vibe} page, follow the user's instructions carefully, and base them on this context: ${bio}`;
 
   const generateBio = async (e: any) => {
     e.preventDefault();

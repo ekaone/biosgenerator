@@ -15,7 +15,7 @@ class MyDocument extends Document {
           <meta itemProp="name" content="Bio Generator" />
           <meta
             property="og:site_name"
-            content="https://twekaone-biosgenerator.vercel.app"
+            content="https://biosgenerator.vercel.app/"
           />
           <meta
             property="og:description"
@@ -23,13 +23,10 @@ class MyDocument extends Document {
           />
           <meta
             itemProp="image"
-            content="https://twekaone-biosgenerator.vercel.app/og-image.png"
+            content="https://biosgenerator.vercel.app/og-image.png"
           />
           {/* <!-- Facebook Meta Tags --> */}
-          <meta
-            property="og:url"
-            content="https://twekaone-biosgenerator.vercel.app"
-          />
+          <meta property="og:url" content="https://biosgenerator.vercel.app/" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Biography Generator" />
           <meta
@@ -38,7 +35,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://twekaone-biosgenerator.vercel.app/og-image.png"
+            content="https://biosgenerator.vercel.app/og-image.png"
           />
           {/* <!-- Twitter Meta Tags --> */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -49,11 +46,11 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://twekaone-biosgenerator.vercel.app/og-image.png"
+            content="https://biosgenerator.vercel.app/og-image.png"
           />
           <meta
             name="twitter:image"
-            content="https://twekaone-biosgenerator.vercel.app/og-image.png"
+            content="https://biosgenerator.vercel.app/og-image.png"
           />
         </Head>
         <body>
