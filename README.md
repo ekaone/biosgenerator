@@ -1,6 +1,6 @@
 # Bio Generator
 
-This app will generated 2 biographies as an option
+This app will generated 2 biographies based on the input you provide. The input is a simple sentence that describes your professional experience. The output will be 2 different biographies that you can use for your social media profiles, resumes, or any other professional documents.
 
 ## Usage:
 
@@ -42,5 +42,25 @@ and
 Results-driven Senior Talent Acquisition leader at Microsoft with over 10 years of experience. 
 Skilled in full-cycle recruiting, employer branding, and diversity & inclusion initiatives.
 ```
+
+## Installation
+
+1. Clone the repository
+```
+git clone https://github.com/ekaone/biosgenerator
+```
+2. Install
+```
+yarn install
+```
+3. Set up the environment of OpenAI key on .env file
+4. Run
+```
+yarn start
+```
+5. Open your browser and go to `http://localhost:3001`
+
+
+
 
 
